@@ -1,0 +1,14 @@
+server:
+  port: 8081　
+
+spring:
+   datasource:
+    url: jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis-plus:
+     mapper-location: classpath:com/lk/spring/dao/mapper/*.xml
+
+
